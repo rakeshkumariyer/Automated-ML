@@ -12,7 +12,7 @@ The API was created using flask and tested using Postman
 
 To train the machine learning model, we select the hyperparameters using the Grid Search Technique. The best hyperparameter is selected and the model is trained and saved in the 'Models' Folder. Depending on the technique used the models are saved in the respective technique model (Classification,Regression or Forecasting)
 
-To provide the service to the User, we use the <technique>_services.py file. On providing an input through postman in JSON format, the output is formed from the saved model and outputted in JSON format.
+To provide the service to the User, we use the 'technique'_services.py file. On providing an input through postman in JSON format, the output is formed from the saved model and outputted in JSON format.
 
 Machine Learning Models Used :
 Classification : Support Vector Machine(svm.SVC - support vector classifier), Random Forest Classifier
