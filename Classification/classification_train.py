@@ -25,7 +25,7 @@ def Read_Dataset(dataset,target):
     values_le=labelencoder_y.classes_     
     keys_le = labelencoder_y.transform(labelencoder_y.classes_)
     dict_le = dict(zip(keys_le, values_le))
-    joblib.dump(dict_le, sys.path[0]+'/Model/Classification/classifier_dict.pkl')  # Store the mapping of the Classification(String names --> Integers)
+    joblib.dump(dict_le, sys.path[0]+'/Models/Classification/classifier_dict.pkl')  # Store the mapping of the Classification(String names --> Integers)
     return X,y
     
 def Classification(Dataset,Target):
