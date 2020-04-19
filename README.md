@@ -1,5 +1,5 @@
-### AUTOMATED MACHINE LEARNING
-Python Libraies Used:
+# AUTOMATED MACHINE LEARNING
+### Python Libraies Used:
 Pandas
 Numpy
 Sklearn
@@ -14,11 +14,12 @@ To train the machine learning model, we select the hyperparameters using the Gri
 
 To provide the service to the User, we use the 'technique'_services.py file. On providing an input through postman in JSON format, the output is formed from the saved model and outputted in JSON format.
 
-Machine Learning Models Used :
+### Machine Learning Models Used :
 Classification : Support Vector Machine(svm.SVC - support vector classifier), Random Forest Classifier
 Regression : Lasso Regression, Ridge Regression
 Forecasting : SARIMA - Seasonal ARIMA(For Seasonal and Univariate Data), VAR - Vector Autoregression, VARMAX - Vector Auto Regression Moving Avgrage(For Multivariate Data, can be used for both seasonal and non seasonal data)
 
+### Datasets
 DataSet for Classification - Non Time Series Dataset
 DataSet for Regression - Time Series and Non Time Series Dataset can be used. (The time Column is removed and 
 the the regression algorithm is performed).
